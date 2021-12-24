@@ -45,7 +45,7 @@ a:hover {
 /* intro styles */
 #intro {
   padding-left: 1rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 #intro p {
@@ -126,11 +126,13 @@ nav a:hover,
 nav [class*="fa-"]:hover {
   color: var(--magenta);
 }
+
 .btn {
   background-color: var(--magenta);
   color: white;
   padding: 0.5rem;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .btn:hover {
